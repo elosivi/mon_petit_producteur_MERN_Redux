@@ -1,0 +1,9 @@
+server/node_modules/
+server/routes/out/
+client/node_modules/
+node_modules
+README_elo.md
+README_Project.md
+server/test.js
+test*
+.idea/index.html

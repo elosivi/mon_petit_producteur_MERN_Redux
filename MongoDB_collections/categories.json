@@ -1,0 +1,13 @@
+{"_id":{"$oid":"5f0495302a7bc5612808ecaa"},"name":"poisson"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecb3"},"name":"viande"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecab"},"name":"produits laitiers"}
+{"_id":{"$oid":"5f0495302a7bc5612808eca9"},"name":"fruits"}
+{"_id":{"$oid":"5f0495302a7bc5612808eca8"},"name":"légumes"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecb4"},"name":"oeufs"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecb0"},"name":"divers"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecac"},"name":"charcuterie"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecb1"},"name":"épicerie"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecae"},"name":"herbes"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecb2"},"name":"pâtes fraîches"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecaf"},"name":"miel"}
+{"_id":{"$oid":"5f0495302a7bc5612808ecad"},"name":"conserves"}

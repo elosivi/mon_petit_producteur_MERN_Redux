@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+.myContainer {
+    /* color: #028090; elo */
+    /* font-family: 'Chewy'; */
+    font-family: 'Century Gothic';
+    width: 85%;  /* elo*/
+    padding: 20px;
+
+}
+
+h2{
+    text-align: center;
+    font-family: Chewy;
+    font-size:3rem;
+    color:rgba(132, 109, 109, 0.8);
+    margin-bottom:5%;
+  }
+  
+
+.shadow {
+    border:0px;
+    box-shadow: 0 0rem 1rem rgba(0,0,0,.175)!important;
+  }
+
+.search{
+    font-size: 1.3rem;  /* elo*/
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */  /* elo*/
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+
+.userControl {
+    margin-left: 10px;
+    color: #028090;
+    border-radius: 5px;
+}
+
+.zipCodeForm {
+    font-size: 3vh;
+    margin-right: 10px;
+}
+
+.input {
+    color: #028090;
+}
+
+.current-position {
+    font-size: 3vh;
+    background-color: #FAFAFA;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.city {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.slider {
+    margin:10px;
+}
+
+.categorySelect {
+    color: #028090;
+}
+
+.myBlue {
+    color: #028090;
+}
+
+.map {
+    border-radius: 5px;
+    border: 3px solid #028090;
+
+}
+
+.mapTitle {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    padding: 10px;
+}
+
+.producerCard {
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 100%; */
+    /* height: 300px; */
+    margin: 15px;
+    /* justify-content: center; */
+    /* align-items: flex; */
+    /* padding: 10px; */
+    /* border: 3px solid #028090; */
+    border-radius: 3px;
+}
+
+.producerPicture {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .gridContainer {
+
+} */
+
+.cardHeader {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+}
+
+.cardButton {
+    border: 1px teal;
+    width: 30%;
+    background-color: #028090;
+    border: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h5 {
+    margin: 0px;
+}
+
+/* elo */
+
+select.categorySelect {
+    border-bottom: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 4px;
+}
+
+input.input {
+    border-bottom: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 4px;
+}
+
+button.userControl {
+    /* text-align: right; */
+    /* justify-content: right; */
+    /* margin-left: 100px; */
+    border: 0;
+    margin-top: 50px;
+    padding: 5px 100px;
+}
+
+select.myBlue {
+    border: 0;
+}
+
+.radius span{
+    font-size:1.8rem;
+    color: rgba(2, 128, 144, 1);
+    font-family: Chewy;
+}
+
+h3{
+    text-align: center;
+    font-family: Chewy;
+    font-size:2rem;
+    color: rgba(2, 128, 144, 1);
+    margin-bottom:5%;
+    /* margin-top:5% */
+ 
+  }
+
+.current-position{
+    margin-bottom:10%
+}
+
+.city{
+    margin-bottom:10%
+}
+
+.gridContainer .card-body {
+    height: 200px;
+}
+
+
+.gridContainer.row {
+    padding-right: 60px;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.card-title a{
+    margin-bottom: .75rem;
+    /* font-weight: 600; */
+    font-family: Chewy;
+    font-size: 1.4rem;
+    color:rgba(60, 60, 59, 1);
+}

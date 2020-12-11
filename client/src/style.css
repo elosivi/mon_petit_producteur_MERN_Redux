@@ -1,0 +1,930 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+/*
+my_Black: #1b2021ff;
+my_White: #fafafaff;
+taupe: #846d6dff;
+taupe_foncé: #3c3c3bff;
+turquoise: #028090ff; */
+
+/* my_Black: rgba(27, 32, 33, 1);
+my_White: rgba(250, 250, 250, 1);
+taupe: rgba(132, 109, 109, 1);
+taupe_foncé: rgba(60, 60, 59, 1);
+turquoise: rgba(2, 128, 144, 1); */
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/***********************************  general *********************/
+
+body {
+    font-family: 'Century Gothic';
+    box-sizing: border-box;
+}
+  /* mainContainer is used for the base of all the view*/
+  .mainContainer {
+    padding-top: 50px;
+    width:90%;
+  }
+
+a{
+  margin-left: 3% ;
+  margin-right: 3% ;
+}
+
+  .CentralContainer {
+    width: 80%;
+  }
+
+
+  .container{
+    width:70%;
+    margin:auto;
+  }
+
+  .fullContainer {
+    padding-top: 50px;
+    width: 90%;
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .RightAlign{
+    text-align: right;
+  }
+
+  .flex, .flexFullScreen{
+    display:flex
+  }
+
+  a, .button{
+    cursor: pointer;
+  }
+
+  .error{
+    color:#F75400;
+    font-weight: bold;
+    /* background-color: rgba(250, 250, 250, 0.5); */
+    margin-top: 2%;
+    padding: 2px 2%;
+    border-radius: 5px;
+  }
+  .success{
+    color:#23967F;
+  }
+  .message{
+    color:#23967F;
+  }
+
+  .separation{
+    border-bottom: 1px solid rgba(73,82,90,0.3);
+    padding-bottom: 50px;
+  }
+
+  .bigShadow {
+    border:0px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  }
+
+  .leaflet-container {
+    height: 400px;
+    width: 100%;
+  }
+
+  .buttonTop{
+    background-color:rgba(2, 128, 144, 1);
+    border-radius:50%;
+    color:white;
+    width:50px;
+    font-family: Chewy;
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+
+/* ================================= H E A D E R  ============================== */
+
+
+.Master-Header{
+  margin:auto;
+}
+
+.Master-Header .col{
+  text-align: center;
+}
+
+/* =================================  F O O T E R ============================== */
+.footer-module{
+  background-image: url(./img/bois_turqoise_BG.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 80px 0px 40px;
+  font-family: 'Century Gothic';
+}
+.socMed{
+  justify-content: space-around;
+  margin-top:50px;
+}
+.footer-module img.socialMedia{
+  width:80px;
+}
+
+.footer-module .col{
+  text-align: center;
+  line-height: 1;
+}
+
+.footer-module .card-body{
+  text-align: center;
+}
+
+.footer-module h4{
+  font-size: 2rem;
+  font-family: Chewy;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-module p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.footer a{
+  font-size:1.1rem;
+  font-weight: 700;
+  color:rgba(27, 32, 33, 1)
+}
+
+/* ================================= N A V  +  T I T L E  ============================== */
+
+  nav.myNav.navbar.navbar-expand.navbar-dark{
+  background-color: rgba(2, 128, 144, 1);
+  color:rgba(250, 250, 250, 1);
+  font-family: Chewy;
+  margin-bottom:50px;
+}
+
+.mr-auto.navbar-nav {
+  width: 100%;
+}
+
+.myNav a{
+  color: rgba(250, 250, 250, 1);
+  vertical-align: center;
+  margin: 0 25px;
+}
+
+.myNav a:hover{
+  color: rgba(27, 32, 33, 1);
+  font-size:1.4rem;
+}
+
+
+.myNav .special{
+  color: rgba(27, 32, 33, 1)
+}
+img.logoNav {
+  position: absolute;
+  width: 200px;
+  top: -50px;
+  left: -70px;
+}
+
+span.navbar-brand {
+  margin-left: 65%;
+}
+
+span.navbar-brand:hover {
+  color: rgba(60, 60, 59, 1);
+  font-size:1.4rem;
+
+}
+
+.topNav {
+  margin: auto;
+}
+
+.left-side{
+  text-align: left;
+}
+
+.right-side{
+  text-align: right;
+  margin: auto;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+
+Button.special{
+  background-color: transparent;
+  border-color:transparent;
+}
+
+Button.special:hover{
+  background-color: transparent;
+  border-color:transparent;
+  color:rgba(250, 250, 250, 1);
+  font-size:1.2rem;
+}
+
+.row.row-cols-12{
+  width:100%;
+}
+
+.Navigation-site svg{
+  color:rgba(250, 250, 250, 0.5);
+  font-size:2rem;
+  margin:0 5px;
+}
+
+.Navigation-site svg:hover{
+  color:rgba(250, 250, 250, 1);
+  font-size:2.2rem;
+
+}
+
+  /* ================================= H O M E   ============================== */
+
+.home h2{
+  text-align: center;
+  font-family: Chewy;
+  font-size:2rem;
+  color:rgba(132, 109, 109, 0.8)
+}
+
+.breadcrumb {
+  background-color: inherit;
+  align-content: center;
+  justify-content: center;
+}
+.breadcrumb svg {
+  font-size: 1.7rem;
+}
+
+.breadcrumb a:hover{
+    font-weight: 800;
+}
+
+.breadcrumb a{
+  color: rgba(132, 109, 109, 1);
+  margin: 0 2%;
+}
+
+.card{
+padding: 2%;
+}
+
+.home h3.Article_title {
+  text-align: left;
+  margin-left:2%
+}
+
+.home h3{
+  font-size: 2.5rem;
+  font-family: Chewy;
+  letter-spacing: 0.2rem;
+}
+
+/* qui sommes nous */
+.QuiSommesNous .title.row {
+  background-image: url(./img/QuiSommesNous_title.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 80px 0px 40px;
+}
+
+.QuiSommesNous .text.row {
+  background-image: url(/static/media/QuiSommesNous_text.219ab6e7.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-bottom: 80px;
+}
+
+
+.QuiSommesNous .text p{
+  text-align: justify;
+  font-weight: 600;
+}
+.home .laurier.col img{
+  margin-left: -55%;
+}
+
+/* steps */
+.steps{
+  background-color: rgba(132, 109, 109, 0.5)
+}
+.steps h3 {
+  text-align: center;
+  margin: 80px 0 50px 0;
+}
+
+.step-text{
+  text-align: center;
+  padding:40px;
+
+}
+
+.step-text p{
+  text-align: center;
+  font-weight: bold;
+  color:white;
+}
+
+.step-text span{
+  text-align: center;
+  font-weight: bold;
+  color:rgba(2, 128, 144, 1);
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.step-text img.number{
+  width:120px;
+  margin-bottom:30px;
+}
+
+.step-text img.picto{
+  width:100px;
+}
+
+.step-text img.biggest-one{
+  margin-top:20px;
+  width: 150px;
+  margin-top: -50px;
+}
+
+.step-text img.biggest-two{
+  margin-top:20px;
+  width: 150px;
+  margin-top: -30px;
+}
+
+.step-text img.biggest-three{
+  margin-top:20px;
+  width: 170px;
+  margin-top: -30px;
+}
+
+.step-height{
+  height:220px;
+}
+
+/* communauté */
+
+.communaute {
+  background-image: url(./img/combien_BG.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-bottom: 80px;
+}
+
+.communaute h3{
+  padding-right:15%;
+  text-align: right;
+  margin: 80px 0 150px 0;
+  color: rgba(2, 128, 144, 1);
+}
+
+.communaute h4{
+  font-size: 2rem;
+  font-family: Chewy;
+  font-weight: bold;
+  text-align: center;
+}
+
+.communaute p{
+  font-size: 2rem;
+  font-family: Chewy;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+.separator{
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* trio */
+
+.trio img.presentation{
+  width: 100%;
+}
+
+.trio h4{
+  font-size: 2rem;
+  font-family: Chewy;
+  font-weight: 500;
+  color:rgba(132, 109, 109, 1);
+  margin-left:5%;
+  margin-top:10%;
+  margin-bottom:5%
+}
+.trio p{
+  margin-left:5%;
+}
+
+.trio img.little {
+  width: 80px;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.trio .row{
+  margin-top: 2%;
+}
+/* portraits */
+
+.home .portraits{
+  margin-top: 5% ;
+  margin-bottom: 5%;
+}
+
+/* .one-portrait{
+  margin: 10px;
+} */
+
+.card.card-body {
+  width: 400px;
+}
+
+.slick-slide.slick-active {
+  width: 400px;
+}
+
+.portraits h3 {
+  text-align: center;
+  margin: 0px 0 50px 0;
+  color:white;
+}
+
+div.portraits {
+  background-image: url(./img/cadre_vegetables_white.png);
+  background-color: rgba(132, 109, 109, 0.8);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 80px 0px 40px;
+
+}
+.home .btn-secondary {
+  color: rgba(132, 109, 109, 1);
+  background-color: transparent;
+  border-color: rgba(132, 109, 109, 1);
+  margin-top:1%
+}
+.One-portrait svg {
+  font-size: 1.5rem;
+  margin-right: 2%;
+}
+.One-portrait a{
+  color:rgba(132, 109, 109, 1);
+  text-align: center;
+  padding:2px;
+  margin-top:1%;
+ }
+ .One-portrait a:hover {
+  color: rgba(250, 250, 250, 1);
+  background-color: rgba(132, 109, 109, 1);
+  border-color: rgba(132, 109, 109, 1);
+  margin-top:1%;
+  padding:4px;
+}
+.One-portrait a:hover{
+  color: rgba(250, 250, 250, 1);
+ }
+
+.home .card-title {
+  margin-bottom: .75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.home p.card-text {
+  font-family: chewy;
+  font-size: 2rem;
+  color: rgba(2, 128, 144, 0.8);
+}
+.slick-dots li button:before{
+  font-size:15px!important;
+}
+
+  /* ================================= L O G I N    ---- R E G I S T E R============================== */
+.login{
+    margin:auto;
+    width:60%;
+  }
+
+  button.log {
+    width: 100%;
+    margin:auto;
+    background-color: #343A40;
+    border: 0px solid white;
+  }
+
+  button.log:hover{
+    width: 100%;
+    background-color: white;
+    border: 0px solid #343A40;
+    color:#343A40;
+  }
+
+/* ================================= P R O F I L E   ----   C O N S U M E R ============================== */
+
+.modifyProfile{
+  font-family: Chewy, cursive;
+  margin-bottom:5%;
+  color: #028090ff;
+
+}
+
+.h2Consumer{
+  font-family: Chewy, cursive;
+  margin-bottom: 4%;
+  margin-top:3%;
+
+}
+
+.ConsumerUpdateDataAndForm{
+  padding: 5%;
+}
+
+.buttonConsumerProfile{
+  margin-top:  3%;
+  margin-right: 2% ;
+}
+
+.postConsumer{
+  width: 50%;
+  align-items: center;
+  margin-top: 7%;
+}
+/* ================================= P R O F I L E   ----   P R O D U C E R ============================== */
+
+.producer-profile .farmNameProfile{
+  color: black;
+  font-variant: small-caps;
+  font-size: x-large;
+}
+
+.producer-profile .presentationCard{
+  margin-top:2%;
+  margin-bottom:2% ;
+}
+
+.producer-profile .packCard{
+  margin-bottom: 10% ;
+}
+
+.producer-profile .infoG{
+  font-size: x-large;
+  margin-bottom: 7% ;
+}
+
+.producer-profile .jumbotron{
+  border-radius:7px ;
+  padding: 4%;
+}
+
+.producer-profile .prodAncre{
+  color: black;
+  margin-left: 3% ;
+  margin-right: 3% ;
+  font-family: 'Chewy', cursive;
+  font-size: 22px;
+}
+
+.producer-profile .cardTitle{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 3% ;
+  font-family: 'Chewy', cursive;
+}
+
+.producer-profile .portrait{
+  margin-top: 5% ;
+  margin-bottom: 10%;
+}
+
+.producer-profile .produits{
+  margin-bottom: 10%;
+}
+
+
+.producer-profile .createProduct{
+  margin-left:40%;
+  margin-top: 10%;
+}
+
+.producer-profile .GPSAlert{
+  font-size: x-small;
+  color: red ;
+  font-style: italic;
+}
+
+.producer-profile .jumbotron{
+  background-color: #028090ff;
+}
+
+.producer-profile .display-3{
+  color:white;
+  font-family: 'Chewy', cursive;
+  background-color: transparent;
+}
+
+.producer-profile .lead{
+  color:white;
+  font-family: 'Chewy', cursive;
+  font-size: x-large;
+}
+
+.producer-profile .image-jumbotron{
+  width: 30%;
+  float:right;
+}
+
+.producer-profile .presImage{
+    width: 30%;
+    float: left;
+  margin-right:5%;
+  border-radius: 7px;
+
+  }
+.producer-profile .presImageProduct{
+  width: 27%;
+  float: left;
+  margin-right:3%;
+  border-radius: 7px;
+}
+.producer-profile .presImageLeft{
+  width: 30%;
+  float: right;
+  margin-left:3%;
+  border-radius: 7px;
+}
+
+.producer-profile .textCard{
+   margin-bottom: 5%;
+   margin-left:10% ;
+ }
+
+.producer-profile .textCardLeft{
+  margin-bottom: 5%;
+  margin-right:10% ;
+}
+
+.producer-profile .jumbotronType2{
+  background-color: #028090ff;
+  padding-left: 1%;
+  padding-bottom: 0px;
+}
+
+.producer-profile .InputGroup{
+  width: 100%;
+}
+
+.producer-profile .cardInfo{
+  min-width:95% ;
+  width: 95%;
+ height: 450px;
+  max-height: 450px ;
+  background-image: url('../src/img/conbien_BG.png');
+
+}
+
+.producer-profile .cardFooter{
+  background-color: transparent;
+}
+
+.producer-profile .note{
+  color:white;
+}
+
+.producer-profile .cardProducts{
+  margin-bottom: 2%;
+}
+
+button.btn.btn-outline-light {
+  margin: 0 0 30px 20px;
+  font-size: 1.2rem;
+}
+/* grades */
+
+.average-grade{
+  margin-right:50px;
+}
+
+legend.MuiTypography-root.average-grade.MuiTypography-body1 {
+  font-size: 1.1rem;
+  font-family: 'Century Gothic';
+  font-weight: 700;
+  margin-right: 30px;
+  line-height: 1.5;
+
+}
+
+.row.note{
+  border:white
+}
+
+.row.note {
+  border-color: white;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.note .col-6 {
+  margin: auto;
+  text-align: center;
+}
+
+.MuiTypography-root.jevote{
+  margin-top:5px;
+}
+
+.vote {
+  padding-top: 20px;
+}
+
+.Producernote.flex.row {
+  width: 50%;
+  text-align: center;
+  padding: 15px;
+}
+
+/* =================================    P R O F I L E   ----   C O N S U M E R  ============================== */
+
+
+
+/* =================================   W A L L    P O S T S      V I E W  ============================== */
+
+.PostWall h2{
+  text-align: center;
+  font-family: Chewy;
+  font-size:3rem;
+  color:rgba(2, 128, 144, 1)
+}
+
+.divWall{
+  width: 100%;
+  margin-bottom: 2.5%;
+  font-family: 'Century Gothic';
+  color: #FAFAFA;
+}
+
+.CardWall{
+  background-image: url("./img/Bois.png");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+
+.PostWall{
+  font-family: 'Chewy', cursive;
+  color: #1B2021;
+}
+
+.TitleCardWall{
+  text-align: center;
+}
+
+.LinkCardWall{
+  margin-left: 0%;
+  color: #028090;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.LinkCardWall:hover{
+  color: #FAFAFA;
+}
+
+.CardWall .date small{
+  color: rgba(250, 250, 250, 0.7);
+  font-size:0.8rem;
+}
+.CardWall .date {
+  font-weight: bold;
+}
+
+.BtnCardWall{
+  float: right;
+  width: 3.5%;
+  margin-left: 1.5%;
+  background-color: #028090;
+}
+
+.BtnCardWall:hover{
+  color: #3C3C3B;
+  background-color: #028090;
+}
+
+.BtnCardWall:focus{
+  color: #3C3C3B;
+  background-color: #028090;
+}
+
+.BtnMessWall{
+  width: 35%;
+  margin-left: 10%;
+  margin-bottom: 2.5%;
+  background-color: rgba(2, 128, 144, 0.8);
+  /* under-> elo */
+  font-family: 'Century Gothic';
+  border-color: transparent;
+  font-weight: bold;
+  margin-top:5%;
+  padding:10px 0;
+}
+
+.BtnMessWall span{
+  color:  rgba(60, 60, 59, 1);
+}
+
+.BtnMessWall:hover{
+  color: #3C3C3B;
+  background-color: #028090;
+}
+
+.BtnMessWall:focus{
+  color: #3C3C3B !important;
+  background-color: #028090 !important;
+}
+
+.SubmitPostWall{
+  background-color: #028090 !important;
+}
+
+.SubmitPostWall:hover{
+  color: #3C3C3B !important;
+  background-color: #028090 !important;
+}
+
+.SubmitPostWall:focus{
+  color: #3C3C3B !important;
+  background-color: #028090 !important;
+}
+
+.ImgWall{
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+/* under-> elo */
+.CardWall h4 {
+  text-align: center;
+  margin-bottom: 3%;
+  /* font-family: Chewy; */
+  font-weight: bold;
+}
+
+.individualPost.card-body {
+  width: 80%;
+  margin: 20px auto;
+  height: 700px;
+}
+
+
+.divWall .content{
+  background-color:rgba(250, 250, 250, 0.5) ;
+  color: rgba(60, 60, 59, 1);
+  font-weight:bold;
+  padding:2%;
+  border-radius: 5px;
+}
+
+.BtnCardWall {
+  width: 20%;
+}
+
+.BtnCardWall2 {
+  width: 53%;
+}
+
+img.wall-picto{
+  width: 50%;
+}
+
+.divWall img.card-img.presImage {
+  margin-bottom: 5%;
+  border-color: white;
+  border: solid;
+  border-width: 1px;
+  height: 200px;
+  object-fit: cover;
+}
+/* =================================   M A P     V I E W   ============================== */
